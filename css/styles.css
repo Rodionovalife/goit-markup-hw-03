@@ -30,11 +30,11 @@ img {
 .header {
   border-bottom: 1px solid #e7e9fc;
   background: #fff;
-  padding: 0 15px;
 }
 .container {
   max-width: 1158px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .header-container {
@@ -212,7 +212,6 @@ img {
   flex-direction: row;
   gap: 24px;
   margin: 0 auto;
-  width: calc((100% - 72px) / 4);
 }
 
 .team-list-item {
@@ -221,6 +220,7 @@ img {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  width: calc((100% - 72px) / 4);
 }
 .team-employee {
   padding: 32px 0;
@@ -268,9 +268,9 @@ img {
   column-gap: 24px;
   margin: 0 auto;
   padding: 0;
-  width: calc((100%-48px) / 3);
 }
 .portfolio-list-item {
+  width: calc((100% - 48px) / 3);
 }
 .portfolio-list-item:nth-child(odd) {
   margin-right: 0;
